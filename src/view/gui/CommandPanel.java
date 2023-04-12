@@ -33,8 +33,8 @@ public class CommandPanel extends JPanel {
     this.listModel = listModel;
     this.setBorder(BorderFactory.createTitledBorder("Commands:"));
     String[] options = {"None", "Add Layer",
-            "Set Filter", "Add Image to Layer",
-            "Save Project"};
+                        "Set Filter", "Add Image to Layer",
+                        "Save Project"};
     JComboBox<String> comboBox = new JComboBox<>();
     for (String option : options) {
       comboBox.addItem(option);

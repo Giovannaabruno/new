@@ -302,6 +302,10 @@ public class ProjectTest {
 
 
   }
+
+  /**
+   * Tester LoadProjectFromImage.
+   */
   @Test
   public void testLoadProjectFromImage() {
     Project image = Project.loadProjectFromImage("images/Koala.jpg");
@@ -320,6 +324,10 @@ public class ProjectTest {
 
 
   }
+
+  /**
+   *  Tester AddLayerFromImage.
+   */
   @Test
   public void testAddLayerFromImage() {
     Project image = new Project(800, 600);

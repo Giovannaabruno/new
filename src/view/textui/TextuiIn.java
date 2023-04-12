@@ -2,6 +2,9 @@ package view.textui;
 
 import java.io.IOException;
 
+/**
+ * interfaces for Textui.
+ */
 public interface TextuiIn {
 
   /**

@@ -3,7 +3,7 @@ package model;
 /**
  * Class Pixel which implements PixelInterface.
  */
-public class Pixel implements PixelInterface {
+public class Pixel {
   private int red;
   private int green;
   private int blue;

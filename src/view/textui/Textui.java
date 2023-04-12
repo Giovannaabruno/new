@@ -19,10 +19,10 @@ public class Textui implements TextuiIn {
 
 
   /**
-   * Constuctor for Textui.
+   * Constructor for Textui.
    *
    * @param ic equals ImageController
-   * @throws IOException invailed input
+   * @throws IOException invalided input
    */
   public Textui(ImageController ic) throws IOException {
     this.ic = ic;

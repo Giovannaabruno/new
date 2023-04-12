@@ -35,7 +35,6 @@ public class JFrameView extends JFrame implements CollagingView {
 
 
   private ImagePanel imagePanel;
-  private ImageController ic;
   private Project currentProject;
 
   /**
@@ -43,7 +42,6 @@ public class JFrameView extends JFrame implements CollagingView {
    */
   public JFrameView(ImageController ic) {
     super("Collaging Images");
-    this.ic = ic;
 
     this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
@@ -135,7 +133,6 @@ public class JFrameView extends JFrame implements CollagingView {
                 }
               } else if (getExtension(selectedFile.getName()).equals("jpg")
                       || getExtension(selectedFile.getName()).equals("png")) {
-                // kel
                 // Read the JPEG or PNG file
                 System.out.println("Loading file " + selectedFile.getName());
                 System.out.println("Loading " + getExtension(selectedFile.getName()));
@@ -148,17 +145,6 @@ public class JFrameView extends JFrame implements CollagingView {
                 imageWindow.setTitle(selectedFile.getName());
 
 
-              } else {
-                /**try {
-                 img = ImageIO.read(selectedFile);
-                 } catch (IOException err) {
-                 JOptionPane.showMessageDialog(currentWindow, "File wasn't found.");
-                 }
-                 }
-                 } else {
-                 JOptionPane.showMessageDialog(currentWindow,
-                 "No current project so cannot assign to layer.");
-                 }*/
               }
             }
           }

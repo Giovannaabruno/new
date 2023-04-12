@@ -3,7 +3,7 @@ package model;
 /**
  * Class for Layer which implements LayerInterface.
  */
-public class Layer implements LayerInterface<Pixel> {
+public class Layer  {
   private int height;
   private int width;
   private Pixel[][] grid;

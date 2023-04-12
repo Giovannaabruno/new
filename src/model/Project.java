@@ -186,7 +186,7 @@ public class Project implements ProjectInterface {
   }
 
   /**
-   * Adds Layer to filename.
+   * Method addLayerFromImage represents, Adds Layer to filename.
    *
    * @param filename name of file
    */

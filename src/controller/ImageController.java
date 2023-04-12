@@ -25,6 +25,7 @@ public class ImageController implements ControllerInterface {
    * constructor for the controller.
    */
   public ImageController() {
+    this.img = null;
   }
 
   /**
